@@ -1,61 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <title>Guessing Game</title>
+    <title>Ben's Guessing Game</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   </head>
   <body>
 
-      <div id='app'>
+      <div id='app' class='container'>
 
-        <div id='headers'>
-          <h1>Guessing Game</h1>
-          <h2>Enter any number between 0 and 100</h2>
+        <div id='headers' class=''>
+          <h1 id='title' class='text-center'>Welcome To The Guessing Game.</h1>
+          <h2 id='instruct' class='text-center'>Enter a number between 0 and 100</h2>
         </div>
 
-        <div id='main'>
-          <div id='input-parent'>
-            <input placeholder="#" max="100" min="0" autofocus=autofocus>
-            <button>Go!</button>
+        <div id='main' class='center'>
+          <div id='input-parent' class=''>
+            <input id='player-input' class='center' placeholder='#' maxlength='3' autofocus=autofocus></input>
+            <button id='submit'>Go!</button>
           </div>
 
-          <div id='guesses'>
-            <ul>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
-              <li>-</li>
+          <div id='guesses' class=''>
+            <ul id='guess-list' class='list-inline'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
             </ul>
           </div>
 
-          <div id="menu-btns">
-            <button>Reset</button>
-            <button>Hint</button>
+          <div id='menu-btns' class=''>
+            <button id='reset'>Reset</button>
+            <button id='hint'>Hint</button>
           </div>
         </div>
+
       </div>
 
 
 
-    <div id='footer'>
-        <div>
-          <div class=''>
+    <div id='footer' class='center'>
+
+        <div class='row'>
+          <div class='col-sm-4'>
             <img src='fa-logo@2x.png'></img>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <h4>Project by Ben Saphier</h4>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <img src='grace_hopper_academy.png'></img>
           </div>
-
-
         </div>
+
     </div>
 
   </body>

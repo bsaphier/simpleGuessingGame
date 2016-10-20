@@ -8,15 +8,34 @@ ul {
 }
 
 img {
-    display: inline;
-    width: 200px;
-    height: 100px;
+    width: 233px;
+    height: auto;
+}
+
+#main {
+  padding: 21px 0;
 }
 
 #footer {
     width: 100%;
-    border-top: solid 2px black;
+    border-top: solid 2px #081321;
     background-color: white;
     position: fixed;
     bottom: 0;
+}
+
+#instruct {
+  margin-bottom: 55px;
+}
+
+#input-parent {
+  padding: 21px 0;
+}
+
+#guesses {
+  margin: 34px 0;
+}
+
+#menu-btns {
+  padding: 21px 0;
 }
