@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.guess {
+  background-color: white;
+  display: inline;
+  font-size: 55px;
+  border: 2px solid #999999;
+  border-radius: 10%;
+  padding: 0 24px;
+  margin: 0 3px;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -12,30 +22,44 @@ img {
     height: auto;
 }
 
-#main {
-  padding: 21px 0;
+body {
+    background-image: url('ambientFlower001.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#app {
+    width: 62%;
+    margin: 34px auto;
+}
+
+#input-parent {
+    position: relative;
+    width: 144px;
+    margin: 2% auto 5%;
+}
+
+#player-input {
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+    font-size: 55px;
+}
+
+#submit {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 
 #footer {
     width: 100%;
-    border-top: solid 2px #081321;
+    border-top: solid 2px #dddddd;
     background-color: white;
     position: fixed;
     bottom: 0;
-}
-
-#instruct {
-  margin-bottom: 55px;
-}
-
-#input-parent {
-  padding: 21px 0;
-}
-
-#guesses {
-  margin: 34px 0;
-}
-
-#menu-btns {
-  padding: 21px 0;
 }
