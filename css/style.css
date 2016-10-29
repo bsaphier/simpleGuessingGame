@@ -23,7 +23,7 @@ img {
 }
 
 body {
-    background-image: url('ambientFlower001.png');
+    background-image: url('../img/ambientFlower001.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
